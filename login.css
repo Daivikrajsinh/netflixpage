@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    background-image: url("IN-en-20240624-POP_SIGNUP_TWO_WEEKS-perspective_WEB_13cda806-d858-493e-b4aa-f2792ff965dc_large.jpg");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(IN-en-20240624-POP_SIGNUP_TWO_WEEKS-perspective_WEB_13cda806-d858-493e-b4aa-f2792ff965dc_large.jpg);
+    width: 100%;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: overlay;
+}
+.header{
+    width: 70%;
+    margin: auto;
+}
+.Netflix{
+    width: 180px;
+    height: 50px;
+    margin-top: 20px;
+}
+.form{
+    height: 700px;
+    width: 450px;
+    background-color:rgba(0, 0, 0, 0.758) ;
+    margin: auto;
+    z-index: 1;
+    padding: 60px;
+}
+.form-1{
+    margin-bottom: px;
+    height: auto;
+    width: 100%;
+}
+h1{
+    font-size: 40px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mailline{
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.mailline::placeholder{
+    color: white;
+}
+.btn1{
+    height: 40px;
+    width: 100%;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-size: large;
+}
+.btn1:hover{
+    background-color: brown;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+.p1{
+    color: silver;
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+}
+.btn2{
+    height: 40px;
+    width: 100%;
+    background-color: rgba(192, 192, 192, 0.557);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.btn2:hover{
+    background-color:  rgba(192, 192, 192, 0.479);
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+.p2{
+    color: #fff;
+    font: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+.p2:hover{
+    border-bottom: 1px solid silver;
+}
+.p3{
+    margin-left: 10px;
+}
+.checkbox{
+    margin-top: 20px;
+}
+.p4{
+    margin-top: 10px;
+    color: silver;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.p5{
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+}
+.p5:hover{
+    border-bottom: 1px solid white;
+
+}
+.p6{
+    font-size: small;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: silver;
+}
+.p7{
+    color: blue;
+}
+.p7:hover{
+    border-bottom: 1px solid blue;      
+    cursor: pointer;
+}
+footer {
+    border-top: 10px solid rgb(35,35,35);
+    height: 40vh;
+    padding: 20px 50px;
+    background-color: #000000;
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+.english{
+    border: 2px solid white;
+    color: #fff;
+    background-color: #000000;
+    height: 50px;
+    width: 150px;
+    font-size: 15px;
+}
+.footer-1{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+}
+.footer-2{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+.footer-2 div{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+   gap: 40px;
+   padding: 20px;
+}
+.footer-2 div a{
+color: white;
+font-size: 15px;
+text-align: start;
+}
+.footer-1 h2{
+color: white;
+font-size: 15px;
+margin-bottom: 20px;
+}
+.footer-1 a{
+color: white;
+}
+
+
+
+
+
